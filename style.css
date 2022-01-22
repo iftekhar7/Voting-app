@@ -1,0 +1,48 @@
+ *{
+   margin: 0px;
+   padding: 0px;
+ }
+ .container{
+   width: 800px;
+   height: 500px;
+   text-align: center;
+   border: 1px solid ;
+   border-radius: 5px;
+   margin-top: 15px;
+   margin-left: 350px;
+   background-color: rgb(112, 85, 85);
+ }
+ #app{
+   background-color: gray;
+   padding:2px 10px;
+   border-radius: 3px;
+   cursor: pointer;
+ }
+ #show{
+  background-color: gray;
+  padding:4px 5px;
+  border-radius: 3px;
+  margin-top: 15px;
+  cursor: pointer;
+ }
+ #show:hover{
+   background-color: rgb(78, 64, 64);
+ }
+ #reset{
+  background-color: gray;
+  padding:2px 10px;
+  border-radius: 3px;
+  margin-left: 15px;
+  margin-top: 16px;
+  cursor: pointer;
+ }
+ #reset:hover{
+  background-color: rgb(78, 64, 64);
+}
+ #class{
+   display: flex;
+   flex-direction: row;
+    
+   text-align: center;
+   justify-content: center;
+ }
